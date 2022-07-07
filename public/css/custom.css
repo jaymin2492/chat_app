@@ -1,0 +1,25 @@
+.list-group-item {
+  cursor: pointer;
+}
+
+.user_chat_panel {
+  display: none;
+}
+
+.panel-body {
+  min-height: 320px;
+  overflow-y: auto;
+}
+
+.user_chat_panel .panel-body div {
+  margin-bottom: 10px;
+  padding: 6px 15px;
+  border-radius: 5px;
+  width: 80%;
+  clear: both;
+}
+
+.user_chat_panel .panel-body div.current {
+  clear: both;
+}
+.user_chat_panel .panel-body div.current a{ float: left;}
